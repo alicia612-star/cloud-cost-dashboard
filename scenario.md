@@ -194,3 +194,4 @@ It is dangerous because any new commits created while in this state are anonymou
 Branch protection rules safeguard production stability. They prevent catastrophic accidental actions—such as force-pushes (`git push --force`) or direct commit deletions—and ensure that no unreviewed or untested code can bypass the quality gate and disrupt live infrastructure.
 * **How do pull requests improve software quality and collaboration?**
 Pull Requests (PRs) introduce a formal code review gateway. They foster cross-team collaboration, allow peer code validation, and enforce compliance by automatically triggering automated CI/CD testing pipelines (linting, vulnerability scanning, unit testing) to verify the code's health before it is allowed into the main repository track.
+.
