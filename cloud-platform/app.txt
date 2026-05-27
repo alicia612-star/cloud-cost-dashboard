@@ -1,1 +1,2 @@
 Cloud Platform v1
+Critical authentication fix
